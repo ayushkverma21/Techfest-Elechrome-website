@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+	background-color: #303f56;	
+}
+
+#social{
+    width: 270px;
+    height: auto;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+[class^="icon-btn"] /*.icon-btn*/ {
+	height: 45px;
+	width: 45px;
+	border: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 25px;
+	line-height: 40px;
+	transition: ease-in-out .3s;
+	border-radius: 50px;
+	margin-left: 0em;
+    margin-top: 2px;
+   align-items: center;
+	background-color: rgba(225,225,225,0.2);
+}
+
+
+.facebook {
+	color: white;
+}
+.google-plus {
+	color: white;
+}
+
+.instagram {
+	color: white;
+}
+
+
+
+.icon-btn:hover {
+	transform: scale(1.10);	
+	color: #FFFFFF;
+}
+
+
+
+.facebook:hover {
+	background-color: #3B5998;	
+}
+
+.google-plus:hover {
+	background-color: #DB5A3C;	
+}
+
+.instagram:hover {
+	background-color: #5C3D2E;	
+}
+
+
+
+a.link {
+	color: white;	
+}
+#main{
+    background: url(images/ele_logo.png);
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-origin: padding-box;
+    margin-left: auto;
+    margin-right: auto;
+    color: aqua;
+    text-align: center;
+ padding-top: 100px;
+    
+    
+}
